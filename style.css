@@ -1,0 +1,116 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: whitesmoke;
+  color: darkslategrey; 
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+  font-style: italic;
+  color: orange;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 150%;
+  font-weight: bold;
+  color: white;
+}
+
+#startBtn{
+  background: #00A300;
+}
+
+#stopBtn{
+  background: red;
+}
+
+#clock {
+  padding: 20px;
+  font-family: courier new, sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+#winCount {
+  padding: 10px;
+  float: right;
+  font-weight: bold;
+  font-size: 150%;
+  color: green;
+}
+
+#loseCount {
+  padding: 10px;
+  float: right;
+  font-weight: bold;
+  font-size: 150%;
+  color: red;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:15px;
+  border-radius: 100%;
+  box-shadow: 5px 10px 7px #b0b0b0
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button1:active, #button1.lit {
+  background: green;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button2:active, #button2.lit {
+  background: blue;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button3:active, #button3.lit {
+  background: red;
+}
+
+#button4 {
+  background: lightyellow;
+}
+
+#button4:active, #button4.lit {
+  background: yellow;
+}
+
+#button5 {
+  background: plum;
+}
+
+#button5:active, #button5.lit {
+  background: purple;
+}
+
+#button6 {
+  background: #ffd78f;
+}
+
+#button6:active, #button6.lit {
+  background: orange;
+}
+
